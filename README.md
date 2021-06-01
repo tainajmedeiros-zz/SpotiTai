@@ -48,8 +48,6 @@ The project was created using the following technologies:
 <!-- USAGE EXAMPLES -->
 ## Usage
 
-### Desktop Version
-
 _Destaque Section_
 
 ![desktop-one][desktop-one]
@@ -61,12 +59,6 @@ _Só Nordeste and Divas Sections_
 _Rock and Baladinhas Sections_
 
 ![desktop-three][desktop-three]
-
-### Mobile Version
-
-![mobile-one][mobile-one]
-
-![mobile-two][mobile-two]
 
 
 <!-- CONTACT -->
@@ -84,5 +76,3 @@ Project Link: [https://github.com/tainajmedeiros/SpotiTai](https://github.com/ta
 [desktop-one]: assets/img/forReadme/desktopOne.png
 [desktop-two]: assets/img/forReadme/desktopTwo.png
 [desktop-three]: assets/img/forReadme/desktopThree.png
-[mobile-one]: assets/img/forReadme/mobileOne.png
-[mobile-two]: assets/img/forReadme/mobileTwo.png
