@@ -1,0 +1,67 @@
+.box {
+    align-items: flex-end;
+    display: flex;
+    justify-content: center;
+}
+
+.emphasis {
+    display: grid;
+    grid-gap: .2rem;
+    grid-template-columns: 25% 25% 25% 25%;
+    grid-template-rows: 33.33% 33.33% 33.33%;
+    height: calc(100vh - 50px);
+}
+
+.emphasis__title {
+    background: rgba(0, 0, 0, .5);
+    color: #fdfdfd;
+    padding: .6rem;
+    text-align: center;
+    width: 100%;
+}
+
+.emphasis__principal {
+    background: url('../img/emphasis/madonna.jpg') center / cover no-repeat;
+    grid-row: 1 / 3;
+}
+
+.emphasis__secondary:nth-child(2) {
+    background: url('../img/emphasis/anavitoria.jpg') center / cover no-repeat;
+}
+
+.emphasis__secondary:nth-child(3) {
+    background: url('../img/emphasis/beyonce.jpg') center / cover no-repeat;
+}
+
+.emphasis__secondary:nth-child(4) {
+    background: url('../img/emphasis/alanis.jpg') center / cover no-repeat;
+}
+
+.emphasis__secondary:nth-child(5) {
+    background: url('../img/emphasis/pink.jpg') center / cover no-repeat;
+}
+
+.emphasis__category {
+    grid-row: 3 / 3;
+}
+
+.emphasis__category___list {
+    display: flex;
+    flex-wrap: wrap;
+    height: 100%;
+    justify-content: space-between;
+}
+
+.emphasis__category___item {
+    align-items: center;
+    background: #fdfdfd;
+    border-left: 5px solid transparent;
+    color: #333333;
+    display: flex;
+    padding: 1rem;
+    width: 50%;
+}
+
+.emphasis__category___link {
+    color: inherit;
+}
